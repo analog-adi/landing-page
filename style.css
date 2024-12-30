@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  margin-top: auto;
+  padding: 30px;
+}
+.font {
+  margin: 12px;
+  margin-left: 250px;
+  font-size: 24px;
+  font-weight: 700;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 100px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.section-quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  flex-shrink: 0;
+}
+.quote-text {
+  font-size: 30px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+  padding: 20px 110px;
+}
+.quote-author {
+  font-size: larger;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  margin: 75px 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.cta .head {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+button {
+  background-color: #3882f6;
+  color: white;
+  margin: 10px;
+  border: 2px white solid;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 15px;
+  padding: 10px 50px;
+  flex-shrink: 0;
+}
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  gap: 25px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.main {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  padding: 20px 250px;
+}
+div button {
+  border-color: #1f2937;
+}
