@@ -117,8 +117,24 @@ button {
   background-color: #1f2937;
   color: white;
   display: flex;
-  padding: 20px 250px;
+  padding: 20px 200px;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
 }
 div button {
   border-color: #1f2937;
+}
+.hero {
+}
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+p.hero {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
